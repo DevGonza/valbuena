@@ -1,7 +1,11 @@
-.a{
-    display: flex;
+*{
+    background-image: url('../../img/FONDO-WEB.jpg');
+    background-attachment: fixed;
+}
+img{
     
 }
-.b{
-    margin-left: 300px;
+
+.nav-item{
+    color: yellow;
 }
