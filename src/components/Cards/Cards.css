@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+.btnc{
+    width: 75%;
+    border-radius: 3rem;
+    border: none;
+    font-size:2rem;
+    height: 5rem;
+    font-weight: bolder;
+    background-color: rgb(114, 67, 36);
+    
+}
+
+.card-title
+{
+    font-family: 'Rubik Glitch', cursive;
+    color:rgb(114, 67, 36);
+    font-size:3rem;
+}

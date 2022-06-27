@@ -1,28 +1,70 @@
 import React from "react";
 import './Navbar.css'
-import imagen from "../../img/foto3.png"
+
 
 const Navbar = () => {
-  return (
-    <nav className="navbar navbar-expand-lg  bg-dark">
-    <div className="container-fluid">
-        <a href="#" className="navbar-brand">
-            <img src={imagen} height="28" alt="CoolBrand"/>
-        </a>
-        <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse justify-content-center" id="navbarCollapse">
-            <div className="navbar-nav">
-                <a href="#" className="nav-item nav-link active me-2 item">Sobre MI</a>
-                <a href="#" className="nav-item nav-link me-2">Cortes</a>
-                <a href="#" className="nav-item nav-link me-2">Ubicacion</a>
-                <a href="#" className="nav-item nav-link " tabIndex="-1">Contacto</a>
+    return (
+        <nav className="navbar navbar-expand-lg navbar-dark">
+            <div className="container-fluid mb-5">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse mt-5" id="navbarNav">
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav">
+                            <li className="nav-item me-5 ms-2">
+                                <button className="btnn btn-dark opacity-75 text-warning text-uppercase" type="button">cortes</button>
+                            </li>
+                            <li className="nav-item">
+                                <button className="btnn btn-dark opacity-75 text-warning text-uppercase" type="button">sobre mi</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul className="navbar-nav">
+                            <li className="nav-item me-5">
+                                <button className="btnn btn-dark opacity-75 text-warning text-uppercase" type="button">citas</button>
+                            </li>
+                            <li className="nav-item me-2">
+                                <button className="btnn btn-dark opacity-75 text-warning text-uppercase" type="button">contacto</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</nav>
-  );
+        </nav>
+    );
+
 };
 
 export default Navbar;
+
+{/* <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <div className="container-fluid">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse d-flex justify-content-evenly" id="navbarNav">
+                    <div>
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
+                                
+                            </li>
+                            <li className="nav-item">
+                                
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
+                                
+                            </li>
+                            <li className="nav-item">
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav> */}

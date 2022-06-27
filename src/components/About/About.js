@@ -1,34 +1,15 @@
 import React from "react";
-import imagen from "../../img/pers.gif";
+import imagen from "../../img/pers1.png";
 import '../About/About.css'
+
 const About = () => {
   return (
-    <div className="container d-flex main">
-      <div className=" imagen">
-        <img src={imagen} alt="hector" />
+    <div className="d-flex justify-content-end main mt-5">
+      <div className=" imagen ms-5">
+        <img src={imagen} width="600" height="818" alt="hector"/>
       </div>
-      <div className="container info">
-        <p>
-          {" "}
-          Al contrario del pensamiento popular, el texto de Lorem Ipsum no es
-          simplemente texto aleatorio. Tiene sus raices en una pieza cl´sica de
-          la literatura del Latin, que data del año 45 antes de Cristo, haciendo
-          que este adquiera mas de 2000 años de antiguedad. Richard McClintock,
-          un profesor de Latin de la Universidad de Hampden-Sydney en Virginia,
-          encontró una de las palabras más oscuras de la lengua del latín,
-          "consecteur", en un pasaje de Lorem Ipsum, y al seguir leyendo
-          distintos textos del latín, descubrió la fuente indudable. Lorem Ipsum
-          viene de las secciones 1.10.32 y 1.10.33 de "de Finnibus Bonorum et
-          Malorum" (Los Extremos del Bien y El Mal) por Cicero, escrito en el
-          año 45 antes de Cristo. Este libro es un tratado de teoría de éticas,
-          muy popular durante el Renacimiento. La primera linea del Lorem Ipsum,
-          "Lorem ipsum dolor sit amet..", viene de una linea en la sección
-          1.10.32 El trozo de texto estándar de Lorem Ipsum usado desde el año
-          1500 es reproducido debajo para aquellos interesados. Las secciones
-          1.10.32 y 1.10.33 de "de Finibus Bonorum et Malorum" por Cicero son
-          también reproducidas en su forma original exacta, acompañadas por
-          versiones en Inglés de la traducción realizada en 1914 por H. Rackham.{" "}
-        </p>
+      <div className="container info text-center text-white text-uppercase fs-3 d-flex align-items-center w-50">
+        <p><spam className="text-warning fs-1">Con este texto iniciamos la info</spam><br></br>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
       </div>
     </div>
   );

@@ -1,11 +1,16 @@
-*{
-    background-image: url('../../img/FONDO-WEB.jpg');
-    background-attachment: fixed;
-}
-img{
-    
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+.btnn{
+    height: 5.3rem;
+    width: 15.5rem;
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 2.5rem;
+    background-color: rgba(40, 40, 40, 0.767);
+    border: none;
+    border-radius: 1rem;
 }
 
-.nav-item{
-    color: yellow;
-}
+
+/* TRABAJAR MEDIA QUERY:
+-SACAR LOS MARGENES DE LOS li
+-PONERLE MENOS TRANSPARENCIA AL MENU DESPLEGABLE */
+
